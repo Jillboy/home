@@ -1,0 +1,30 @@
+#search {
+  align-items: center;
+  background-color: #DDDDDD;
+  border: 5px solid #DDDDDD;
+  border-radius: 8px;
+  color: #111111;
+  display: flex;
+  margin: auto;
+  width: 512px;
+}
+
+#search img {
+  max-width: 16px;
+  max-height: 16px;
+  padding-left: 8px;
+}
+
+#search-input {
+  border: none;
+  background-color: inherit;
+  flex: 1;
+  padding-left: 16px;
+}
+
+#search-button {
+  background-color: #0074D9;
+  border: 4px solid #0074D9;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
