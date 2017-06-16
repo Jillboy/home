@@ -14,3 +14,5 @@ document.getElementById('search-button').addEventListener("click", function (eve
 /**
  * Get list of online streamers that are followed.
  */
+// TODO.
+

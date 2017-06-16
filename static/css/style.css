@@ -1,3 +1,6 @@
+/**
+ * DuckDuckGo search bar.
+ */
 #search {
   align-items: center;
   background-color: #DDDDDD;
@@ -5,7 +8,7 @@
   border-radius: 8px;
   color: #111111;
   display: flex;
-  margin: auto;
+  margin: 20px auto;
   width: 512px;
 }
 
@@ -28,3 +31,33 @@
   border-radius: 8px;
   color: #FFFFFF;
 }
+
+
+/**
+ * Table of useful links.
+ */
+#links {
+  height: 300px;
+  margin: 50px auto;
+  table-layout: fixed;
+  width: 800px;
+}
+
+.cell {
+  background-color: #222222;
+  font-family: "Source Sans Pro", "DejaVu Sans", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* TODO: remove this and use only .link */
+.cell a { 
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
