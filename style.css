@@ -46,6 +46,11 @@
   font-family: "Source Sans Pro";
   font-size: 18px;
 
+  border-collapse: collapse;
   table-layout: fixed;
   text-align: center;
+}
+
+#links, .link {
+  border: 10px solid #FFFFFF;
 }
