@@ -45,4 +45,7 @@
   color: #FFFFFF;
   font-family: "Source Sans Pro";
   font-size: 18px;
+
+  table-layout: fixed;
+  text-align: center;
 }
