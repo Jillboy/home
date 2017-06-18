@@ -37,27 +37,12 @@
  * Table of useful links.
  */
 #links {
-  height: 300px;
-  margin: 50px auto;
-  table-layout: fixed;
-  width: 800px;
-}
+  width: 650px;
+  height: 402px;
+  margin: auto;
 
-.cell {
-  background-color: #222222;
-  font-family: "Source Sans Pro", "DejaVu Sans", sans-serif;
-  font-size: 22px;
-  text-align: center;
-}
-
-.link {
+  background-color: #111111;
   color: #FFFFFF;
-  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
 }
-
-/* TODO: remove this and use only .link */
-.cell a { 
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
