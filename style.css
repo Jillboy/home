@@ -59,6 +59,7 @@
 .dropdown-content {
   display: none;
   flex-direction: column;
+  min-width: 100px;
   position: absolute;
   top: 34px;
   white-space: nowrap;
