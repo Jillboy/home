@@ -9,31 +9,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="search">
+  <div class="search">
     <img src="static/icons/DDG-icon_16x16.png" alt="DuckDuckGo icon">
-    <input id="search-input" type="text" placeholder="Search...">
-    <button id="search-button">
-      <i class="fa fa-search"></i>
-    </button>
+    <input type="text" placeholder="Search...">
+    <button><i class="fa fa-search"></i></button>
   </div>
 
-  <table id="links">
-    <tr>
-      <td class="link" data-url="https://www.reddit.com/">Reddit</td>
-      <td class="link">Reddit</td>
-      <td class="link">Reddit</td>
-    </tr>
-    <tr>
-      <td class="link">Reddit</td>
-      <td class="link">Reddit</td>
-      <td class="link">Reddit</td>
-    </tr>
-    <tr>
-      <td class="link">Reddit</td>
-      <td class="link">Reddit</td>
-      <td class="link">Reddit</td>
-    </tr>
-  </table>
+  <div class="links">
+    <div class="dropdown">
+      <a href="https://www.reddit.com/">Reddit</a>
+      <div class="dropdown-content">
+        <a href="https://i.imgur.com/tXoMzD7.jpg">LS Tier List</a>
+        <a href="https://www.reddit.com/r/leagueoflegends/">/r/leagueoflegends</a>
+        <a href="https://www.reddit.com/r/summonerschool/">/r/summonerschool</a>
+        <a href="https://www.reddit.com/r/theredpill/">/r/theredpill</a>
+      </div>
+    </div>
+  </div>
 
   <ul>
     <li><a href="https://www.youtube.com/">YouTube</a></li>

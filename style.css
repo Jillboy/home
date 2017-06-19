@@ -1,56 +1,81 @@
 /**
  * DuckDuckGo search bar.
  */
-#search {
+.search {
   align-items: center;
   background-color: #DDDDDD;
-  border: 5px solid #DDDDDD;
+  border: 4px solid #DDDDDD;
   border-radius: 8px;
+  box-sizing: border-box;
   color: #111111;
   display: flex;
   margin: 20px auto;
-  width: 512px;
+  width: 500px;
 }
 
-#search img {
+.search > img {
   max-width: 16px;
   max-height: 16px;
   padding-left: 8px;
 }
 
-#search-input {
+.search > input {
   border: none;
   background-color: inherit;
   flex: 1;
   padding-left: 16px;
 }
 
-#search-button {
+.search > button {
   background-color: #0074D9;
-  border: 4px solid #0074D9;
+  border: 5px solid #0074D9;
   border-radius: 8px;
   color: #FFFFFF;
 }
 
-
 /**
- * Table of useful links.
+ * Useful links.
  */
-#links {
-  width: 650px;
-  height: 402px;
-  margin: auto;
-
-  background-color: #111111;
-  color: #FFFFFF;
-  font-family: "Source Sans Pro";
-  font-size: 18px;
-
-  border-collapse: collapse;
-  table-layout: fixed;
-  text-align: center;
+.links {
+  display: flex;
+  justify-content: center;
 }
 
-#links, .link {
-  border: 10px solid #FFFFFF;
+.links a {
+  color: #111111;
+  font-family: "Source Sans Pro";
+  text-decoration: none;
+  font-size: 20px;
+  padding:   6px;
+}
+
+.dropdown {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 34px;
+  z-index: 1;
+
+  background-color: #F9F9F9;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.1);
+}
+
+.dropdown-content a {
+  color: #111111;
+  font-size: 16px;
+  padding: 3px 8px;
+}
+
+.dropdown-content a:hover {
+  background-color: #F1F1F1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
 }
