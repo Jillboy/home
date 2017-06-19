@@ -44,9 +44,10 @@
 .links a {
   color: #111111;
   font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
-  font-size: 20px;
-  padding:   6px;
+  padding: 6px;
 }
 
 .dropdown {
@@ -69,8 +70,9 @@
 
 .dropdown-content a {
   color: #111111;
-  font-size: 14px;
   padding: 3px 8px;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .dropdown-content a:hover {
