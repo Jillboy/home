@@ -8,11 +8,11 @@ document.getElementById('search-button').onclick = (event) => {
   window.location.href = 'https://duckduckgo.com/?q=' + query;
 }
 
-// Redirect to appropriate page on clicking a link cell.
+// Open link in new tab on clicking a link cell.
 const links = document.getElementsByClassName('link');
 for (let i = 0; i < links.length; i++) {
   links[i].onclick = (event) => {
-    window.location.href = links[i].getAttribute('data-url');
+    window.open(links[i].getAttribute('data-url'));
   }
 }
 
