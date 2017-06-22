@@ -1,0 +1,22 @@
+/**
+ * To retrieve information about your followed streamers from Twitch
+ * API, you'll need to register your own Twitch application. More
+ * information on how to do that here:
+ *   "https://dev.twitch.tv/docs/v5/guides/using-the-twitch-api/"
+ * From there you can get your client ID. You'll also need an OAuth
+ * access token, with a "user_read" scope so you can get the list of
+ * streamers you follow from the API. More information on how to get
+ * one here:
+ *   "https://dev.twitch.tv/docs/v5/guides/authentication/"
+ * Once you have your client ID and an OAuth token, replace the
+ * placeholders YOUR_CLIENT_ID and YOUR_OAUTH_TOKEN below by their
+ * actual values, resave this file as "keys.json" and it should work
+ * out of the box.
+ *
+ * Note: Your OAuth access token must be kept secret! Don't upload it
+ * anywhere where other people can see them. By default, this project
+ * contains a rule in its ".gitignore" to ignore any file called
+ * "keys.json", so you can push this project to GitHub without having
+ * other people see the values of your API keys.
+ */
+var keysJson = '{"clientId": "YOUR_CLIENT_ID", "oAuthToken": "YOUR_OAUTH_TOKEN"}';

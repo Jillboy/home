@@ -1,4 +1,11 @@
 /**
+ * Set "Source Sans Pro" to be the default font.
+ */
+* {
+  font-family: "Source Sans Pro";
+}
+
+/**
  * DuckDuckGo search bar.
  */
 .search {
@@ -43,11 +50,10 @@
 
 .links a {
   color: #111111;
-  font-family: "Source Sans Pro";
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
-  padding: 6px;
+  padding: 12px;
 }
 
 .dropdown {
@@ -61,7 +67,7 @@
   flex-direction: column;
   min-width: 100px;
   position: absolute;
-  top: 34px;
+  top: 40px;
   white-space: nowrap;
   z-index: 1;
 
@@ -82,4 +88,22 @@
 
 .dropdown:hover .dropdown-content {
   display: flex;
+}
+
+/**
+ * Twitch streams.
+ */
+.twitch {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.twitch a {
+  color: #6441A4;
+}
+
+.twitch-streams a {
+  color: #0074D9;
+  text-decoration: none;
 }
