@@ -1,8 +1,12 @@
 /**
- * Set "Source Sans Pro" to be the default font.
+ * Change global defaults for less ugly alternatives.
  */
 * {
   font-family: "Source Sans Pro";
+}
+a {
+  color: #0074D9;
+  text-decoration: none;
 }
 
 /**
@@ -10,11 +14,11 @@
  */
 .search {
   align-items: center;
-  background-color: #DDDDDD;
-  border: 4px solid #DDDDDD;
+  background-color: lightgray;
+  border: 4px solid lightgray;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111111;
+  color: slategray;
   display: flex;
   margin: 20px auto;
   width: 500px;
@@ -34,8 +38,8 @@
 }
 
 .search > button {
-  background-color: #0074D9;
-  border: 5px solid #0074D9;
+  background-color: royalblue;
+  border: 5px solid royalblue;
   border-radius: 8px;
   color: #FFFFFF;
 }
@@ -106,4 +110,20 @@
 .twitch-streams a {
   color: #0074D9;
   text-decoration: none;
+}
+
+/**
+ * LCK standings table.
+ */
+.standings {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.standings th {
+  padding-right: 10px;
+  text-align: left;
 }
